@@ -1,3 +1,10 @@
+echo "*Sabar Cukk"
+apt upgrade && apt update
+apt install python2
+apt install cowsay
+apt install figlet
+pip2 install lolcat
+sh toolCyber.sh
 clear
 figlet "LOGIN"|lolcat
 echo "SILAKAN LOGIN TOOLS DULU"|lolcat
@@ -15,7 +22,7 @@ figlet "LOGIN"|lolcat
 echo "USERNAME & TOOLS DI GABUNGKAN"|lolcat
 echo "JADI = CYBER TOOLS"|lolcat
 echo
-read -p "[✓]USERNAME & PASSWORD " read tr
+read -p "[✓]USERNAME & PASSWORD : " read tr
 echo "*TUNGGU SEBENTAR..."|lolcat
 echo "[✓] BERHASIL✓"|lolcat
 echo " INSTALL TOOLS "|lolcat
